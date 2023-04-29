@@ -1,0 +1,53 @@
+body{
+    font: normal 12pt arial;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(71, 168, 155);
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+
+.torre{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 20px;
+    height: 200px;
+    background: brown;
+    border-radius: 9px 9px 0px 0px;
+   
+}
+
+.discos{    
+    height: 25px;
+    background-image: linear-gradient(50deg, red, blue);
+    border-radius: 20px;
+}
+
+#d0{
+    width: 170px;
+}
+
+#d1{
+    width: 150px;
+}
+
+#d2{
+    width: 130px;
+}
+
+#d3{
+    width: 110px;
+}
+
+.selecao{
+    border: 3px solid springgreen;
+}
